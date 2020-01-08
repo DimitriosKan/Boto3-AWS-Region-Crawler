@@ -67,9 +67,10 @@ def list_things():
             if is_default is True:
                 print (f'{vpc_id}: Default')
 
-
+        print ('')
+        
         # block for testing
-        input()
+        #input()
         
         num += 1
 
